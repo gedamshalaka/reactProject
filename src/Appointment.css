@@ -1,0 +1,23 @@
+.DayPicker-Day--today {
+  color: black;
+  background-color: white;
+  border-radius: 50%;
+  font-weight: 400;
+  }
+
+  .DayPicker-Day--selected {
+    color: black;
+    background-color: white;
+    border-radius: 50%;
+    font-weight: 400;
+  }
+
+    .DayPicker-Day{
+      background-color: lightblue;
+      border-radius: 0%;
+    }
+
+    .DayPicker-Day--disabled {
+      color: black;
+      background-color:white;
+      }

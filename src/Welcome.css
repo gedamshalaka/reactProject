@@ -1,0 +1,106 @@
+h2{
+    padding: 0px;
+    margin: 0px;
+}
+
+h3{
+    padding: 0px;
+    margin: 0px;
+}
+
+h4{
+    padding: 0px;
+    margin: 0px;
+}
+
+.container-card{
+    display:flex;
+    flex-direction: row;
+    border: 1px;
+    border-color: #8B9898;
+    border-style: solid;
+    border-radius: 5px;
+    margin: 25px 25px 25px 25px;
+}
+
+.patient{
+    height: 50px;
+    margin: 25px 25px 25px 25px;
+    border: 1px;
+    border-color: black;
+    border-style: solid;
+    border-radius: 5px;
+    background-color: antiquewhite;
+    font-size: 15px;
+}
+
+.patient-card{
+    color: black;
+    width: 50%;
+    float: right;
+}
+
+.date{
+    color: #8B9898;
+    float:left;
+    margin-left: 25px;
+}
+
+.calendar-text{
+    float: left;
+    margin-left: 25px;
+}
+
+.calendar{
+    float: left;
+    width: 50%;
+    font-size: 25px;
+}
+
+.DayPicker-Day--today {
+    color: blue;
+    background-color: #4A90E2;
+    border-radius: 50%;
+    font-weight: 700;
+  }
+
+  .DayPicker-Day--outside {
+    background-color: white;
+  }
+
+.mini-card{
+    display:flex;
+    flex-direction: row;
+    float:right;
+    border-style: solid;
+    border-color: black;
+    font-size: 10px;
+    height: 55px;
+    width: 70%;
+    margin-right: 10%;
+}
+
+.alignleft{
+    float: left;
+}
+
+.alignright{
+    float: right;
+}
+
+.page{
+    display:flex;
+    flex-direction: row;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.map{
+    background-color: lightblue;
+    display:flex;
+    flex-direction: row;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 100%;
+    margin-top:10%;
+}
